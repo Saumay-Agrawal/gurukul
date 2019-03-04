@@ -1,0 +1,25 @@
+{
+  "name": "gurukul",
+  "version": "1.0.0",
+  "description": "A course registration system built on Node-based API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saumay-Agrawal/gurukul.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saumay-Agrawal/gurukul/issues"
+  },
+  "homepage": "https://github.com/Saumay-Agrawal/gurukul#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "joi": "^14.3.1",
+    "nodemon": "^1.18.10",
+    "pug": "^2.0.3"
+  }
+}
