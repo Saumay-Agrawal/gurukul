@@ -1,0 +1,17 @@
+html
+    head
+        title Course Registration System
+    body
+        h1 Gurukul: Course Registration System
+        h3 Course Details page!
+        br
+        h4= course.name + ' (' + course.id + ')'
+        ul
+            li= 'Credits: ' + course.credits
+            li= 'Duration: ' + course.duration
+            li= 'Start Date: ' + course.date
+            li= 'Current Status: ' + course.status
+            li= 'Students enrolled: ' + course.enrolled
+        a(href='/deletecourse/' + course.id)
+            button Delete this course
+        hr

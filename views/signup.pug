@@ -1,0 +1,16 @@
+html
+    head
+        title Course Registration System
+    body
+        h1 Gurukul: Course Registration System
+        h3 Fill the details below for signup!
+        form(action='/signup' method="post")
+            label Name: 
+            input(type='text' placeholder='Enter name' name="name")
+            br
+            br
+            label Password: 
+            input(type="text" placeholder="Enter passwrord" name="password")
+            br
+            br
+            input(type="submit")

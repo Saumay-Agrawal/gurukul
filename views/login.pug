@@ -1,0 +1,21 @@
+html
+    body
+        h1 Gurukul: Course Registration System
+        h3 Enter the details!
+        form(action="/login" method="post")
+            label ID: 
+            input(type="text" name="id")
+            br
+            br
+            label Password: 
+            input(type="password" name="password")
+            br
+            br
+            input(type="radio" name="user" value="student")
+            span Student
+            br
+            input(type="radio" name="user" value="admin")
+            span Admin
+            br
+            br
+            input(type="submit")

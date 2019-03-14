@@ -1,0 +1,21 @@
+html
+    head
+        title Course Registration System
+    body
+        h1 Gurukul: Course Registration System
+        h3 These are the currently registered students!
+        br
+        each student in result.students
+            h4= student.name
+            ul
+                li= 'ID: ' + student.id
+                li= 'Password: ' + student.password
+                ul
+                    each course in student.registered
+                        li
+                            a(href="/getcoursedetails/"+course)= course
+            //- a(href='/updatecourse/' + course.id)
+            //-     button Update this course
+            //- a(href='/deletecourse/' + course.id)
+            //-     button Delete this course
+            hr
